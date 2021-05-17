@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- my style.css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- boxicon font css -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Alias</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link ">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </div>
+    <!-- Main -->
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi, <br>I am <span class="home__title-color">Sujeet Manjhi</span> </h1>
+                <a href="#" class="button">Contact</a>
+            </div>
+            <div class="home_social">
+                <a href="#" class="home_social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="home_social-icon"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="home_social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="home__img">
+                <img src=".\assets\img\Sujeet.jpg" alt="profile.pic">
+            </div>
+        </section>
+        <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./assets/img/about.jpg" alt="about.jpg">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I'am Sujeet</h2>
+                    <p class="about__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, doloribus
+                        fugit inventore veritatis rem vero perferendis. Aut debitis minima quaerat exercitationem
+                        voluptates. Iusto obcaecati eveniet reiciendis perferendis maxime nam eligendi.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed temporibus
+                        libero .</p>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                        <div class="skills__bar skills__html skills__icon"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                        <div class="skills__bar skills__css skills__icon"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar skills__js skills__icon"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-coffee'></i>
+                            <span class="skills__name">JAVA</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                        <div class="skills__bar skills__java skills__icon"></div>
+                    </div>
+                </div>
+                <div class="skills__img">
+                    <img src="./assets/img/work1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Work -->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="./assets/img/work2.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="./assets/img/work3.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="./assets/img/work4.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="./assets/img/work5.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="./assets/img/work6.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact section">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid" id="contact">
+                <form action="" class="contact__form">
+                    <input type="text" id="" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="30" rows="10"  class="contact__input"></textarea>
+                    <input type="button" value="submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <p class="footer-title">Sujeet Kumar Manjhi</p>
+
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook-square' ></i></a>
+        </div>
+        <p> © 2020 copyrights all rights reserved</p>
+
+    </footer>
+
+    <!-- scroll reveal js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- my script.js -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
